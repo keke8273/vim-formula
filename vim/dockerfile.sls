@@ -6,4 +6,4 @@ include:
 dockerfile_files:
   file.recurse:
     - name: {{ vim.share_dir }}
-    - source: salt://vim/files/dockerfile_syntax
+    - source: salt://vim/files/dockerfile
