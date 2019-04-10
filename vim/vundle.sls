@@ -3,7 +3,7 @@
 include:
   - vim
 
-jenkinsfile_files:
+vundle_vimfiles:
   file.recurse:
     - name: {{ vim.share_dir }}
-    - source: salt://vim/files/jenkinsfile_syntax
+    - source: salt://vim/files/vundle
